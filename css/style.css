@@ -101,13 +101,17 @@
   display: inline-block;
   margin-top: 15px;
   background: gray;
-  padding: 12px;
+  padding: 15px;
   border-radius: 50%;
   opacity: 0;
   transform: translateY(20px);
   transition: 0.4s;
 }
-
+.add-btn img {
+  width: 20px;
+  position: relative;
+  top: 10px;
+}
 /* ===== hover ===== */
 
 .product-card:hover {
